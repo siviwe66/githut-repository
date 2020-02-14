@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.5)), url('background.jpg');
+    background-size:cover ;
+    height: 100vh;
+}
+
+.topnav{
+    display: inline-block;
+    width: 100%;
+    background-color:darkblue;
+}
+
+
+.topnav a{
+display:block;
+float: left;
+color: white;
+text-align: left;
+padding: 14px 16px;
+/* text-decoration:none; */
+text-decoration: none;
+font-size: 30px;
+}
+/*change the color of link on haver*/
+.topnav a:hover{
+    background-color:#ddd;
+    color:black;
+}
+/*Add a color to the active/current link*/
+.topnav a.active
+{background-color:grey;
+color:white;
+display:block;
+}
+/*Slideshow container*/
+.slideshow-container{
+max-width: 1000px;
+position:relative;
+margin:auto;
+}
+
+.hero{
+    display: block;
+    padding: 200px;
+    /* border: 2px solid white; */
+    text-overflow: white;
+    color:white;
+    font-size:40px;
+    text-align:center;
+    left: 10%;
+}
+.hero-text{
+    text-align: center;
+    font-size: 30px;
+    text-overflow:white;
+    color:white;
+}
+.button {
+    background-color:blueviolet;
+    border: none;
+    color:blue;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    align-items: center;
+    text-size-adjust: x-large;
+   
+  }
+
+
+.img{
+    border-image: round;
+    height: auto;
+}
+
+.h1{
+    font-size:30px;
+    text-overflow:white;
+    color:white;
+    text-align:center;
+}
+
+/*FOOTER*/
+
+.footer
+{   
+    width: 100%;
+    background-color:none;
+    color: white;
+    text-align: center;
+    text-size-adjust: 50%;
+    font-size: large;
+  }
+  .icons{
+    width: 5px;
+    background-color:none;
+    color:blue;
+    float: left;
+    flex-direction: row-reverse;
+    align-items: center;
+   
+}

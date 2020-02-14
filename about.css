@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.5)), url('veewee43.jpg');
+    background-size:cover ;
+    height: 100vh;
+}
+
+.topnav{
+    display: inline-block;
+    width: 100%;
+    background-color:darkblue;
+}
+
+img{
+    top: 20%;
+    left: 40%;
+    align-items: center;
+}
+
+
+.topnav a{
+display:block;
+float: left;
+color: white;
+text-align: left;
+padding: 14px 16px;
+/* text-decoration:none; */
+text-decoration: none;
+font-size: 30px;
+}
+/*change the color of link on haver*/
+.topnav a:hover{
+    background-color:#ddd;
+    color:black;
+}
+/*Add a color to the active/current link*/
+.topnav a.active
+{background-color:grey;
+color:white;
+display:block;
+}
+/*Slideshow container*/
+.slideshow-container{
+max-width: 1000px;
+position:relative;
+margin:auto;
+}
+
+.hero{
+
+    color:white;
+    font-size:40px;
+    text-align:center;
+    position: fixed;
+    top:70%;
+    left: 65.8%;
+}
+.hero-text{
+    text-align: left;
+    font-size: 30px;
+    text-overflow:white;
+    color:white;
+    top:40%;
+}
+h1{
+    color:white;
+    text-transform:uppercase;
+    font-size:50px;
+    text-align:right;
+    /* margin-top:275px; */
+}
+
+.icons{
+    width: 5px;
+    background-color:none;
+    color:blue;
+    align-items: baseline;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 60px;
+
+
+}
+
+
+
+.img-footer{
+    height: 100%;
+    width: 70%;
+    size:100%;
+}
+h5{ 
+    color:white;
+    text-transform:uppercase;
+    font-size: xx-large;
+    text-align:left;
+    /* margin-top:275px; */
+    text-size-adjust: 20px;
+
+}
+p{
+    color:white;
+    font-size: x-large;
+    text-align: left;
+    text-size-adjust: 20px ;
+
+
+}
+/*FOOTER*/
+
+.footer{
+    width: 100%;
+    background-color:none;
+    color: white;
+    text-align: center;
+    padding-bottom: 60px;
+    font-size: medium;
+  }
+.footer2{
+    width:100%;
+    background-color: none;
+    color:white;
+    text-align: left;
+    padding-bottom: 60px;
+}
